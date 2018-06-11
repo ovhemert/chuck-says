@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - "10"
+install:
+  - git clone https://$GIT_USER:$GIT_PASS@github.com/$GIT_USER/chuck-says.git
+  - cd ./test
+  - git config credential.helper cache
+  - git config --global user.name "$GIT_USER"
+  - git config --global user.email $GIT_EMAIL
+  
