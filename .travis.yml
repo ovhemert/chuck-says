@@ -3,8 +3,12 @@ node_js:
   - "10"
 install:
   - git clone https://$GIT_USER:$GIT_PASS@github.com/$GIT_USER/chuck-says.git
-  - cd ./test
+  - cd ./chuck-says
   - git config credential.helper cache
   - git config --global user.name "$GIT_USER"
   - git config --global user.email $GIT_EMAIL
-  
+  - git pull https://$GIT_USER:$GIT_PASS@github.com/$GIT_USER/chuck-says.git
+  - wget 'http://api.icndb.com/jokes/random?firstName=John&amp;lastName=Doe' -O ./data/chuck.json
+  - git add ./data
+  - git commit -m 'Update chuck joke'
+  - git push origin master
