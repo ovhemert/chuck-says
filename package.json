@@ -1,0 +1,24 @@
+{
+  "name": "chuck-says",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "./bin/cli.js",
+  "main": "./bin/cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ovhemert/chuck-says.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ovhemert/chuck-says/issues"
+  },
+  "homepage": "https://github.com/ovhemert/chuck-says#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1"
+  }
+}
