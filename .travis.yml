@@ -12,3 +12,8 @@ install:
   - git add ./data
   - git commit -m 'Update chuck joke'
   - git push origin master
+notifications:
+  email: 
+    on_success: never
+    on_failure: always
+  
