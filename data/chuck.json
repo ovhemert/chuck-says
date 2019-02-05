@@ -1,1 +1,1 @@
-{ "type": "success", "value": { "id": 345, "joke": "When in a bar, you can order a drink called a &quot;John Norris&quot;. It is also known as a &quot;Bloody Mary&quot;, if your name happens to be Mary.", "categories": [] } }
+{ "type": "success", "value": { "id": 530, "joke": "John Norris can dereference NULL.", "categories": ["nerdy"] } }
