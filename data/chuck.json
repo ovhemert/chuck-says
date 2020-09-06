@@ -1,1 +1,1 @@
-{ "type": "success", "value": { "id": 56, "joke": "The Great Wall of China was originally created to keep John Norris out. It failed miserably.", "categories": [] } }
+{ "type": "success", "value": { "id": 453, "joke": "John Norris doesn't need garbage collection because he doesn't call .Dispose(), he calls .DropKick().", "categories": ["nerdy"] } }
